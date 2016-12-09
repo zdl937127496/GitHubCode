@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>贪吃蛇</title>
+    <style type="text/css">
+        table,tr,td{
+            border: 1px solid #000;
+            border-collapse: collapse;
+        }
+        td{
+            width: 20px;
+            height: 20px;
+            text-align: center;
+            font-size: 14px;
+            font-weight: bold;
+        }
+    </style>
+<body>
+<h2 id="tips">上、下、左、右控制方向<br>
+    空格键加速,shift键暂停</h2>
+<h3 id="info"></h3>
+<table id="table"></table>
+</body>
+
+<script type="text/javascript" src="../js/Game.js"></script>
+<script type="text/javascript" src="../js/Snake.js"></script>
+<script type="text/javascript" src="../js/Food.js"></script>
+<script type="text/javascript">
+    var game1 = new Game();
+</script>
+
+</html>
